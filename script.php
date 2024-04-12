@@ -22,9 +22,22 @@
 
 
 
-
     <?php
 
+    $censor = $_GET["censor"];
+    //prendo l'input censor
+    $nuovaParola = ('');    
+    // array dove pusho la parola censurata
+
+
+    for ($i = 0; $i < strlen($censor); $i++) {
+
+        $nuovaParola .= '*';
+    }
+    //ciclo per assegnare * a tutto la parola 
+
+    echo $nuovaParola;
+    // stampo la nuova parola censurata a schermo 
 
     ?>
 

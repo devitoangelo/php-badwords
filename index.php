@@ -17,6 +17,9 @@
         <!-- collego il form al file script.php con metodo get-->
         <input type="text" placeholder="Scrivi una frase" name="name">
         <!-- parola da stampare a schermo -->
+        <input type="text" placeholder="censurare" name="censor">
+        <!-- parola da censurare -->
+
         <button type="submit">Play</button>
     </form>
 
